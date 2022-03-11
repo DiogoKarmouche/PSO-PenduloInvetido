@@ -39,15 +39,15 @@ ax2.plot(T, data[4,:],'b-')<br />
 plt.show()<br />
 
 ## Simulação do PSO
-Para a simulação do algoritmo é utilizado a seguinte programação:
+Para a simulação do algoritmo é utilizado a seguinte programação:<br />
 from PSO_simulacao.py import *<br />
 <br />
-# selecionar limites dos espaços de busca
+<p> # selecionar limites dos espaços de busca
 x1_lim = (-1000,-1)<br />
 x2_lim = (1,1000)<br />
 x3_lim = (-1000,-1)<br />
 x4_lim = (1,1000)<br />
-# importe ou crie uma população de partículas, neste repertório tem um exemplo da população B<br />  
+<p> # importe ou crie uma população de partículas, neste repertório tem um exemplo da população B<br />  
 Kmaster = np.load('K_LQR.npy')<br />
 num_particles=len(Kmaster)<br />
 bounds=[x1_lim,
