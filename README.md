@@ -39,7 +39,7 @@ ax2.plot(T, data[4,:],'b-')<br />
 plt.show()<br />
 
 ## Simulação do PSO
-Para a simulação do algoritmo é utilizado a seguinte programação:<br />
+Para mudar a situação imposta sobre o algoritmo durante as iterações, é necessário comentar e descomentar dentro da programação PSO_simulacao.py. Para a simulação do algoritmo é utilizado a seguinte programação:<br />
 from PSO_simulacao.py import *<br />
 <br />
 <p> # selecionar limites dos espaços de busca
